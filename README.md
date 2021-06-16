@@ -5,6 +5,6 @@ As apart of our final project, we have decided to make an itinerary maker that t
 Currently, it is hosted at http://moe.stuy.edu/~kwang30/fp/ and http://moe.stuy.edu/~szheng31/fp/ , but is subject to change when Stuy no longer wants to host it. It does require an apache server to run, but we will probably migrate the project to flask or django in the future. Also, it does require a google maps API key with places, directions, and geocoding enabled, which you can replace in script.py.
 
 ## Pictures
-![Landing Page](/pictures/landing.jpg)
-![Successful Search Page](/pictures/page.jpg)
-![Error Page](/tree/master/pictures/landing.jpg)
+![landing](https://user-images.githubusercontent.com/69407438/122306286-29877b00-ced6-11eb-949e-ffaebba047d1.JPG)
+![error](https://user-images.githubusercontent.com/69407438/122306288-2b513e80-ced6-11eb-97d4-d8b49bed5eda.JPG)
+![page](https://user-images.githubusercontent.com/69407438/122306293-2d1b0200-ced6-11eb-88a6-7c08d1018941.JPG)
