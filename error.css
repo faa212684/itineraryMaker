@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Mulish, sans-serif;
+}
+  
+html {
+    height: 100%;
+    width: 100%;
+}
+  
+body {
+    height: 100%;
+    width: 100%;
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/002/048/897/small/geographic-topographic-map-grid-retro-topography-map-background-vector.jpg);
+    /**background: linear-gradient(to bottom, #feac5e, #c779d0, #4bc0c8);**/
+}
+
+.field {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} 
+
+.main-ctn {
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+    font-size: 50px
+}
+
+hr {
+    border-bottom: 1px solid black;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    font-size: 20px;
+}
+li {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.important {
+    font-weight: bold;
+    color: red;
+}
+
+.form {
+    display: flex;
+    flex-grow: 1;
+}
+
+.button-field {
+    position: relative;
+    bottom: 200px;
+}
+
+form {
+    width: 100%;
+}
+input {
+    height: 70px;
+    width: 100%;
+    padding: 20px;
+    font-size: 30px;
+    border: 1px solid black;
+    border-right: 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+button {
+    width: 300px;
+    font-size: 30px;
+    background: red;
+    border: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+}
+
+#invisible {
+    display: none;
+}

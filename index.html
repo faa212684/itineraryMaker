@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Plan my Day</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <div class="center">
+      <div class="container">
+        <div class="tnpg field">
+          <h2>Team Stwang - Stanley Zheng, Kevin Wang, Cynthia Tenezaca</h2>
+        </div>
+        <br>
+        <h2>Welcome to Plan My Day</h2>
+        <hr>
+
+        <p><span class="bold">Tired of planning your own trips?</span> Fear no more! This final project plans everything you need and more!
+          We have created a website to randomly plan a day at <span class="bold">any given location</span> (works best in <span class="bold">big cities</span>). This includes planning <span class="bold">three meals</span>, breakfast, lunch, and dinner, along with two <span class="bold">nearby attractions</span>, producing a detailed report.</p>
+        <br><br><br><br><br><br>
+        <p class="important">Note: Try not to spam. The API will stop working after a certain number of requests each day, meaning the website will be rendered unusable</p>
+        
+        <br>
+        <p class="important">Hours gone: 25 hours</p>
+
+      </div>
+
+      <div class="form-container">
+        <div class="about"></div>
+        <h1 class="">Plan My Day</h1>
+        <div class="form">
+          <form action="./script.py" method="GET" id="form">
+            <label for="location" >Starting location</label>
+            <input class ="location" name="location" type="text" id="l" value="" defaultValue="Stuyvesant High School" placeholder="Yes really, any location! Try Stuyvesant High School?"><br><br>
+            <label for="transport">Mode of Transportation</label>
+            <br>
+            <input id="radio1" class="radio" name="transport" type="radio" id="path" value="driving" checked><span class="random_text"> Driving</span><br>
+            <input class="radio" name="transport" type="radio" id="path" value="walking"> <span class="random_text"> Walking</span><br>
+            <input class="radio" name="transport" type="radio" id="path" value="transit"> <span class="random_text"> Transit</span><br>
+          </form>
+          <div class="centertop">
+            <div class="field button-field">
+              <button class="btn" type="submit" form="form">Plan My Day!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+
+
+</html>
