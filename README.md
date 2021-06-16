@@ -6,5 +6,6 @@ Currently, it is hosted at http://moe.stuy.edu/~kwang30/fp/ and http://moe.stuy.
 
 ## Pictures
 ![landing](https://user-images.githubusercontent.com/69407438/122306286-29877b00-ced6-11eb-949e-ffaebba047d1.JPG)
-![error](https://user-images.githubusercontent.com/69407438/122306288-2b513e80-ced6-11eb-97d4-d8b49bed5eda.JPG)
 ![page](https://user-images.githubusercontent.com/69407438/122306293-2d1b0200-ced6-11eb-88a6-7c08d1018941.JPG)
+![error](https://user-images.githubusercontent.com/69407438/122306288-2b513e80-ced6-11eb-97d4-d8b49bed5eda.JPG)
+
